@@ -1,0 +1,110 @@
+{
+  "mode": "full",
+  "wave": "2026-09-w1",
+  "window_start_utc": "2026-08-27T19:23:42+00:00",
+  "window_end_utc": "2026-08-27T20:35:50+00:00",
+  "window_event_note": "Aprovação OSF pendente na coleta (registration submetida 27/08 19:08 UTC, janela de 48h em curso). Coleta iniciada em 28/08 por autorização do autor; o registro prevê onda 1 em setembro/2026 — desvio documentado conforme §7 (changelog).",
+  "registration": {
+    "url": "https://osf.io/4mhtj/",
+    "node": "cr476",
+    "date_registered_utc": "2026-08-27T19:08:08",
+    "embargo_end": "2027-06-01"
+  },
+  "estimate": {
+    "mode": "full",
+    "n_tasks": 1472,
+    "n_calls": 1892,
+    "n_calls_abertas": 160,
+    "n_julgamentos_resposta": 1840,
+    "n_trechos_estimados": 8968,
+    "cost_projected_usd": 50.65,
+    "saldo_openrouter_usd": 78.63,
+    "max_cost_usd": 110
+  },
+  "n_truncated": 3,
+  "truncated_keys": [
+    "deepseek|m3|D4|-|2",
+    "deepseek|m3|D4|-|9",
+    "deepseek|m3|D6|-|3"
+  ],
+  "search_plugin": {
+    "id": "web",
+    "engine": "exa",
+    "max_results": 5
+  },
+  "models": {
+    "chatgpt": {
+      "requested": "openai/gpt-5.6-luna",
+      "provider_order": [
+        "openai"
+      ],
+      "devolvidos": [
+        "openai/gpt-5.6-luna"
+      ],
+      "providers": [
+        "OpenAI"
+      ],
+      "sampling_rejected_count": 0
+    },
+    "gemini": {
+      "requested": "google/gemini-3.7-flash",
+      "provider_order": [
+        "google-ai-studio"
+      ],
+      "devolvidos": [
+        "google/gemini-3.7-flash"
+      ],
+      "providers": [
+        "Google AI Studio"
+      ],
+      "sampling_rejected_count": 0
+    },
+    "claude": {
+      "requested": "anthropic/claude-sonnet-4.6",
+      "provider_order": [
+        "anthropic"
+      ],
+      "devolvidos": [
+        "anthropic/claude-sonnet-4.6"
+      ],
+      "providers": [
+        "Anthropic"
+      ],
+      "sampling_rejected_count": 0
+    },
+    "deepseek": {
+      "requested": "deepseek/deepseek-v4-flash-0731",
+      "provider_order": [
+        "fireworks"
+      ],
+      "devolvidos": [
+        "deepseek/deepseek-v4-flash-0731"
+      ],
+      "providers": [
+        "Fireworks"
+      ],
+      "sampling_rejected_count": 0
+    }
+  },
+  "deepseek_nota": "first-party 404 na conta; rota Fireworks é decisão final (limitações)",
+  "code_hash": "bd4adf9b8f162d18",
+  "probes_hash": "48d5daeb145090b3",
+  "wrappers_hash": "44c889d36b6f74ed",
+  "seed": 20261004,
+  "n_tasks": 1472,
+  "n_skipped_existing": 0,
+  "n_ok": 1472,
+  "n_fail": 0,
+  "cost_run_usd": 24.4599,
+  "baseline_prompt_tokens": {
+    "chatgpt": 20,
+    "gemini": 18,
+    "claude": 26,
+    "deepseek": 102
+  },
+  "manual": {
+    "screenshots_produto": "FEITO 29/08 — 12 prints (3/produto, M6 D1/D4/D7) em human/2026-09-w1/ecologico_prints/; anexo em outputs/2026-09-w1/anexo_ecologico.md",
+    "tier_produto": "evidência visual: ChatGPT free deslogado; Gemini seletor 'Flash'; DeepSeek com raciocínio visível; Claude sem rótulo — verificação por doc oficial pendente (HUMAN_TODO)",
+    "window_event_note": "Mini-teste ecológico com defasagem de ~2 dias da coleta (protocolo pedia mesmo dia): coleta 27/08 19:23-20:35 UTC, prints 29/08. 12 prompts realizados (protocolo pedia 20-30)."
+  }
+}
