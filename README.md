@@ -1,7 +1,7 @@
 # four-assistants-one-election
 
-Reproduction package for *Four Assistants, One Election: A Cross-Sectional Audit of
-Web-Connected AI in Brazil's 2026 Presidential Race*.
+Reproduction package for *Auditing Four AI Assistants on Brazil's 2026 Presidential
+Race*.
 
 ## Requirements
 
